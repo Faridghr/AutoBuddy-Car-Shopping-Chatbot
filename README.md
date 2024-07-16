@@ -26,7 +26,7 @@ AutoBuddy is designed to assist users in finding the perfect car based on their 
 
 ## Project Architecture
 
-![Project Architecture](path/to/architecture-diagram.png)
+![Project Architecture](png/architecture-diagram.png)
 
 ### Explanation
 
