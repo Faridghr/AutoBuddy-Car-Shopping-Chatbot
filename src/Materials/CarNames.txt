@@ -1,0 +1,113 @@
+Ford Mustang
+Ford Bronco
+Ford Bronco Sport
+Ford Edge
+Ford Escape
+Ford Expedition
+Ford Explorer
+Ford F-150
+Ford F-150 Lightning
+Ford Maverick
+Ford Ranger
+Ford Super Duty
+Ford Transit
+Chevrolet Malibu
+Chevrolet Blazer
+Chevrolet Equinox
+Chevrolet Trailblazer
+Chevrolet Traverse
+Chevrolet Tahoe
+Chevrolet Suburban
+Chevrolet Camaro
+Chevrolet Corvette
+Chevrolet Spark
+Chevrolet Sonic
+Chevrolet Bolt EV
+Chevrolet Bolt EUV
+Chevrolet Colorado
+Chevrolet Silverado 1500
+Chevrolet Silverado HD
+Chevrolet Express
+GMC Acadia
+GMC Canyon
+GMC Sierra 1500
+GMC Sierra HD
+GMC Terrain
+GMC Yukon
+GMC Yukon XL
+GMC Savana Passenger
+GMC Savana Cargo
+GMC Sierra EV
+Cadillac CT4
+Cadillac CT4-V
+Cadillac CT5
+Cadillac CT5-V
+Cadillac CT5-V Blackwing
+Cadillac XT4
+Cadillac XT5
+Cadillac XT6
+Cadillac Escalade
+Cadillac Escalade-V
+Cadillac LYRIQ
+Buick Enclave
+Buick Encore GX
+Buick Envision
+Buick Envista
+Dodge Challenger
+Dodge Charger
+Dodge Durango
+Dodge Hornet
+Chrysler 300
+Chrysler Pacifica
+Chrysler Pacifica Plug-in Hybrid
+Chrysler Grand Caravan
+Jeep Wrangler
+Jeep Wrangler 4xe
+Jeep Grand Cherokee
+Jeep Grand Cherokee 4xe
+Jeep Grand Cherokee L
+Jeep Cherokee
+Jeep Compass
+Jeep Gladiator
+Jeep Wagoneer
+Jeep Grand Wagoneer
+RAM 1500
+RAM 1500 Classic
+RAM 2500
+RAM 3500
+RAM Chassis Cab
+RAM ProMaster
+RAM ProMaster City
+Lincoln Navigator
+Lincoln Aviator
+Lincoln Corsair
+Lincoln Nautilus
+Lincoln Navigator Black Label
+Lincoln Aviator Black Label
+Lincoln Nautilus Black Label
+Tesla
+Toyota
+Honda
+Nissan
+Mazda
+Subaru
+Mitsubishi
+Lexus
+Acura
+Infiniti
+Hyundai
+Kia
+Genesis
+Volkswagen
+Audi
+BMW
+Mercedes-Benz
+Porsche
+Volvo
+Mini
+Jaguar
+Land Rover
+Alfa Romeo
+Fiat
+Maserati
+Polestar
