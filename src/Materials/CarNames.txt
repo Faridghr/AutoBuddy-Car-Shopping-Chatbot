@@ -85,11 +85,70 @@ Lincoln Nautilus
 Lincoln Navigator Black Label
 Lincoln Aviator Black Label
 Lincoln Nautilus Black Label
-Tesla
-Toyota
-Honda
-Nissan
-Mazda
+Tesla Model 3
+Tesla Model S
+Tesla Model X
+Tesla Model Y
+Toyota 4Runner
+Toyota Avalon
+Toyota bZ4X
+Toyota Camry
+Toyota Corolla
+Toyota Corolla Hatchback
+Toyota Corolla Hybrid
+Toyota Corolla Cross
+Toyota GR Supra
+Toyota GR86
+Toyota Highlander
+Toyota Highlander Hybrid
+Toyota Land Cruiser
+Toyota Mirai
+Toyota Prius
+Toyota Prius Prime
+Toyota RAV4
+Toyota RAV4 Hybrid
+Toyota Sequoia
+Toyota Sienna
+Toyota Tacoma
+Toyota Tundra
+Toyota Venza
+Honda Accord
+Honda Accord Hybrid
+Honda Civic
+Honda Civic Hatchback
+Honda Civic Type R
+Honda CR-V
+Honda CR-V Hybrid
+Honda HR-V
+Honda Insight
+Honda Odyssey
+Honda Passport
+Honda Pilot
+Honda Prologue (All-Electric)
+Honda Ridgeline
+Nissan Altima
+Nissan Ariya
+Nissan Frontier
+Nissan GT-R
+Nissan Kicks
+Nissan LEAF
+Nissan Maxima
+Nissan Murano
+Nissan Pathfinder
+Nissan Qashqai
+Nissan Rogue
+Nissan Sentra
+Nissan TITAN
+Nissan Z
+Mazda3 Sedan
+Mazda3 Sport
+Mazda CX-30
+Mazda CX-5
+Mazda CX-50
+Mazda CX-90
+Mazda MX-5 Soft Top
+Mazda MX-5 RF
+Mazda MX-30 EV
 Subaru
 Mitsubishi
 Lexus
