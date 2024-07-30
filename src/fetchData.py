@@ -10,18 +10,25 @@ class FetchData():
     def __init__(self):
         pass
 
-    def generate_cars_name(self, file_path):
+    def generate_cars_group(self, file_path):
         # Read company names from the file
         with open(file_path, 'r') as file:
-            company_names = file.readlines()
+            company_names = file.read().strip()
 
         # Strip newline characters from each company name
-        company_names = [name.strip() for name in company_names]
-
-        return company_names
+        groups_car = company_names.split('\n\n')
+        return groups_car
+    
+    def generate_cars_name(self, group):
+        result = ''
+        group_list = group.split('\n')
+        for i in group_list:
+            result = result + i + ', '
+        result = result[:-2]
+        return result
 
     def generate_prompt(self, car_name):
-        return f"""You are an AI assistant. I need detailed information on {car_name} car in Canada. Please provide the following details for each model:
+        return f"""You are an AI assistant. I need detailed information on {car_name} cars in Canada. Please provide the following details for each model:
             1. Model Name
             2. Year
             3. Starting Price
@@ -68,7 +75,9 @@ if __name__ == "__main__":
     carNames_file_path = 'src\materials\CarNames.txt'
     carsInformation_file_path = 'src\materials\CarsInformation.txt'
 
-    cars_name = fetchData.generate_cars_name(carNames_file_path)
+    cars_name_groups = fetchData.generate_cars_group(carNames_file_path)
 
-    for car in cars_name:
-        fetchData.generate_car_information(car, carsInformation_file_path)
+    for group in cars_name_groups:
+        cars_name = fetchData.generate_cars_name(group)
+        fetchData.generate_car_information(cars_name, carsInformation_file_path)
+
