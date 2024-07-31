@@ -238,19 +238,224 @@ Infiniti QX55
 Infiniti QX60
 Infiniti QX80
 
-Hyundai
-Kia
-Genesis
-Volkswagen
-Audi
-BMW
-Mercedes-Benz
-Porsche
-Volvo
-Mini
-Jaguar
-Land Rover
-Alfa Romeo
-Fiat
-Maserati
-Polestar
+Hyundai Elantra
+Hyundai Sonata
+Hyundai Sonata Hybrid
+Hyundai Kona
+Hyundai Kona Electric
+
+Hyundai Tucson
+Hyundai Tucson Hybrid
+Hyundai Santa Fe
+Hyundai Santa Fe Hybrid
+Hyundai Santa Fe Plug-in Hybrid
+
+Hyundai Venue
+Hyundai Palisade
+Hyundai Ioniq 5
+Hyundai Ioniq 6
+Hyundai Nexo
+
+Kia Forte
+Kia K5
+Kia EV6
+Kia EV9
+
+Kia Seltos
+Kia Sportage
+Kia Sorento
+Kia Sorento Hybrid
+Kia Sorento Plug-in Hybrid
+
+Kia Telluride
+Kia Niro Hybrid
+Kia Niro Plug-in Hybrid
+Kia Soul
+
+Genesis G70
+Genesis G80
+Electrified G80
+Genesis G90
+Genesis GV60
+
+Genesis GV70
+Electrified GV70
+Genesis GV80
+Genesis GV80 Coupe
+
+Volkswagen Jetta
+Volkswagen Jetta GLI
+Volkswagen Golf GTI
+Volkswagen Golf R
+Volkswagen Tiguan
+
+Volkswagen Atlas
+Volkswagen Atlas Cross Sport
+Volkswagen Taos
+Volkswagen Arteon
+Volkswagen ID.4 (Electric SUV)
+
+Audi A3
+Audi S3
+Audi A4
+Audi S4
+Audi A5
+Audi S5
+
+Audi RS 5
+Audi A6
+Audi S6
+Audi RS 6
+Audi A7
+Audi S7
+
+Audi RS 7
+Audi A8
+Audi S8
+Audi Q3
+Audi Q5
+Audi SQ5
+
+Audi Q7
+Audi Q8
+Audi SQ8
+Audi Q4 e-tron
+Audi Q8 e-tron
+Audi e-tron GT
+
+BMW 2 Series
+BMW 3 Series
+BMW 4 Series
+BMW 5 Series
+BMW 7 Series
+BMW 8 Series
+
+BMW X1
+BMW X2
+BMW X3
+BMW X4
+BMW X5
+BMW X6
+BMW X7
+
+BMW i4
+BMW i7
+BMW iX
+BMW iX3
+
+Mercedes-Benz A-Class
+Mercedes-Benz C-Class
+Mercedes-Benz E-Class
+Mercedes-Benz S-Class
+Mercedes-Benz CLA
+
+Mercedes-Benz CLS
+Mercedes-Benz EQB
+Mercedes-Benz EQC
+Mercedes-Benz EQE
+Mercedes-Benz EQS
+
+Mercedes-Benz G-Class
+Mercedes-Benz GLA
+Mercedes-Benz GLB
+Mercedes-Benz GLC
+Mercedes-Benz GLE
+
+Mercedes-Benz GLS
+Mercedes-Benz AMG GT
+Mercedes-Benz SLC
+Mercedes-Benz SL
+
+718 Cayman
+718 Boxster
+911 Carrera
+911 Targa
+911 Turbo
+911 GT3
+911 GT3 RS
+911 Dakar
+911 S/T
+
+Taycan
+Taycan 4S
+Taycan Turbo
+Taycan Turbo S
+Taycan Turbo GT
+Taycan Cross Turismo
+
+Panamera
+Panamera 4
+Panamera 4 E-Hybrid
+Panamera 4S E-Hybrid
+Panamera GTS
+Panamera Turbo E-Hybrid
+Panamera Turbo S E-Hybrid
+
+Macan
+Macan T
+Macan S
+Macan GTS
+
+Cayenne
+Cayenne S
+Cayenne E-Hybrid
+Cayenne Turbo GT
+
+Volvo EX30
+Volvo EX90
+Volvo XC40 Recharge
+Volvo XC90 Recharge
+Volvo XC60 Recharge
+
+Volvo C40 Recharge
+Volvo V60 Recharge
+Volvo S90 Recharge
+Volvo S60 Recharge
+
+MINI 3 Door
+MINI 5 Door
+MINI Convertible
+MINI Clubman
+
+MINI Countryman
+MINI Electric (MINI Cooper SE 3 Door)
+MINI John Cooper Works (JCW)
+
+Jaguar F-PACE
+Jaguar I-PACE
+Jaguar E-PACE
+Jaguar F-TYPE
+Jaguar XF
+
+Land Rover Range Rover
+Land Rover Range Rover Sport
+Land Rover Range Rover Velar
+Land Rover Range Rover Evoque
+
+Land Rover Defender 90
+Land Rover Defender 110
+Land Rover Defender 130
+Land Rover Discovery
+Land Rover Discovery Sport
+
+Alfa Romeo Tonale
+Alfa Romeo Stelvio
+Alfa Romeo Giulia​
+
+Fiat 500e (Red) Edition
+Fiat 500e La Prima Edition
+
+Grecale
+Levante
+Ghibli
+Quattroporte
+GranTurismo
+
+GranCabrio
+MC20
+MC20 Cielo
+Grecale Folgore
+
+Polestar 2
+Polestar 3
+Polestar 4

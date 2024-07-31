@@ -28,7 +28,7 @@ class FetchData():
         return result
 
     def generate_prompt(self, car_name):
-        return f"""You are an AI assistant. I need detailed information on {car_name} cars in Canada. Please provide the following details for each model:
+        return f"""You are an AI assistant. I need detailed information on {car_name} cars in Canada 2024. Please provide the following details for each model:
             1. Model Name
             2. Year
             3. Starting Price
@@ -72,10 +72,12 @@ if __name__ == "__main__":
 
     fetchData = FetchData()
 
-    carNames_file_path = 'src\materials\CarNames.txt'
+    carNames_file_path = 'src\materials\Car_models_available_in_Canada_for_2024.txt'
     carsInformation_file_path = 'src\materials\CarsInformation.txt'
 
     cars_name_groups = fetchData.generate_cars_group(carNames_file_path)
+
+    #print(len(cars_name_groups))
 
     for group in cars_name_groups:
         cars_name = fetchData.generate_cars_name(group)
