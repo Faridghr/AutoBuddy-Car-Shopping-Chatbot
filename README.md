@@ -2,6 +2,18 @@
 
 Welcome to AutoBuddy, a car shopping search chatbot designed to simplify your car buying experience. This project leverages advanced AI techniques to provide personalized car recommendations based on user preferences.
 
+## Project Architecture
+
+- **src/materials/**: Contains data that our model will use to answer questions.
+- **src/FetchData/**: Contains Python-based script for scraping car's information.
+- **src/Fine-Tune/**: Contains Python-Notebook for fine-tune the GPT-4o-mini.
+- **src/Evaluation/**: Contains Python-Notebook for evaluating chatbot context relevance and answer relevance.
+- **src/chatBot.py**: Python-based chatbot script.
+- **src/mainStreamlitUI.py**: Python-based Streamlit main script.
+- **doc/**: Stores [Report](doc) files.
+- **video/**: Contains [video](video) presentation. You can also watch the video on [YouTube](https://youtu.be/uWGa-fNuLiY).
+- **.env**: Contains API keys.
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -10,11 +22,12 @@ Welcome to AutoBuddy, a car shopping search chatbot designed to simplify your ca
 - [Data Collection and Preprocessing](#data-collection-and-preprocessing)
 - [RAG Pipeline Implementation](#rag-pipeline-implementation)
 - [Fine Tuning Steps](#fine-Tuning-Steps)
-- [Project Architecture](#project-architecture)
 - [Dependencies](#dependencies)
 - [Usage](#usage)
 - [Setting Up OpenAI API](#Setting-Up-OpenAI-API)
 - [Setting up Pinecone](#Setting-up-Pinecone)
+- [Contact](#Contact)
+- [License](#License)
 
 ## Introduction
 
@@ -57,17 +70,6 @@ The RAG pipeline combines retrieval-based and generative models to provide accur
 - Uploading a Training File for Fine-Tuning: Uploading our training data is a crucial step.
 - Train a New Fine-Tuned Model: Create a Fine-Tuning Job and Monitor Job Progress.
 
-## Project Architecture
-
-- **src/materials/**: Contains data that our model will use to answer questions.
-- **src/FetchData/**: Contains Python-based script for scraping car's information.
-- **src/Fine-Tune/**: Contains Python-Notebook for fine-tune the GPT-4o-mini.
-- **src/Evaluation/**: Contains Python-Notebook for evaluating chatbot context relevance and answer relevance.
-- **src/chatBot.py**: Python-based chatbot script.
-- **src/mainStreamlitUI.py**: Python-based Streamlit main script.
-- **doc/**: Stores [Report](doc) files.
-- **video/**: Contains [video](video) presentation. You can also watch the video on [YouTube]().
-- **.env**: Contains API keys.
 
 ## Dependencies
 - Python 3.7+
@@ -101,3 +103,12 @@ The RAG pipeline combines retrieval-based and generative models to provide accur
 3. Fill in the Project Name, Cloud Provider, and Environment. In this case, I have used “SimpleRAGChatbot Application” as a Project Name, GCP as Cloud Provider, and Iowa (gcp-starter) as an Environment.
 4. After the project is created, go into the API Keys section, and make sure you have an API key available. Do not share this API key.
 5. After completing the account setup, you can add your Pinecone API Keys in a file called `.env`.
+
+## Contact Us
+Farid Ghorbani
+GitHub: https://github.com/Faridghr
+Email: faridghr.cs@gmail.com
+LinkedIn: https://www.linkedin.com/in/farid-ghorbanii/
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.

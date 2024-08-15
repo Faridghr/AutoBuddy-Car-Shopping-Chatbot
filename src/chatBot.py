@@ -22,7 +22,7 @@ class ChatBot():
     def __init__(self, material_file_path):
 
         # Load fine-tuned model ID
-        with open('../Fine-Tune/fine_tuned_model_id.txt', "r") as f:
+        with open('./Fine-Tune/fine_tuned_model_id.txt', "r") as f:
             fine_tuned_model_id = f.read().strip()
 
         # Load and split documents
@@ -53,8 +53,8 @@ class ChatBot():
         self.docsearch = PineconeVectorStore.from_documents(docs, embeddings, index_name=index_name)
 
         # Initialize ChatOpenAI
-        model_name = "gpt-4o"
-        ## model_name = fine_tuned_model_id
+        # model_name = "gpt-4o"
+        model_name = fine_tuned_model_id
         self.llm = ChatOpenAI(model_name=model_name, organization='org-G8UtpAEtkeLatwCgEhQGaPOw')
 
         # Define refined prompt template

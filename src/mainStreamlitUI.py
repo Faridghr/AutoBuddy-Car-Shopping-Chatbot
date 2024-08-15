@@ -5,11 +5,11 @@ import json
 material_file_path = './Materials/CarsInformation.txt'
 bot = ChatBot(material_file_path)
 
-st.title('Toronto Travel Assistant Bot')
+st.title('AutoBuddy: A Car Shopping Search Chatbot')
 
 # Store LLM generated responses
 if "messages" not in st.session_state:
-    st.session_state.messages = [{"role": "assistant", "content": "Hello! I'm TravelBot. How can I assist you with your travel plans today?"}]
+    st.session_state.messages = [{"role": "assistant", "content": "Hello! I'm AutoBuddy. How can I assist you?"}]
 
 # Display chat messages
 for message in st.session_state.messages:
