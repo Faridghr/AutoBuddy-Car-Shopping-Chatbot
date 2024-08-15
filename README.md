@@ -6,34 +6,30 @@ Welcome to AutoBuddy, a car shopping search chatbot designed to simplify your ca
 
 - [Introduction](#introduction)
 - [Objectives and Goals](#objectives-and-goals)
-- [Project Architecture](#project-architecture)
 - [Technologies Used](#technologies-used)
 - [Data Collection and Preprocessing](#data-collection-and-preprocessing)
 - [RAG Pipeline Implementation](#rag-pipeline-implementation)
-- [Performance Metrics](#performance-metrics)
-- [Deployment Plan](#deployment-plan)
-- [Future Work](#future-work)
+- [Fine Tuning Steps](#fine-Tuning-Steps)
+- [Project Architecture](#project-architecture)
+- [Dependencies](#dependencies)
+- [Usage](#usage)
+- [Setting Up OpenAI API](#Setting-Up-OpenAI-API)
+- [Setting up Pinecone](#Setting-up-Pinecone)
 
 ## Introduction
 
-AutoBuddy is designed to assist users in finding the perfect car based on their preferences, budget, and specific criteria. It offers a personalized and efficient car search experience by understanding user queries and providing tailored recommendations.
+In this project, we aim to develop a domain-specific chatbot application that utilizes a Large Language Model (LLM) for natural language understanding and processing, combined with the efficiency and scalability of a vector database for data storage and retrieval. The application will implement the Advanced Retrieval-Augmented Generation (RAG) method to enhance the chatbot's ability to provide accurate and relevant responses by integrating retrieved information with generative AI capabilities. We also fine-tune GPT-4o-mini in this project with related data to achieve optimal performance. The front-end of the application will be developed using Streamlit, a popular Python framework for creating interactive web applications.
+
 
 ## Objectives and Goals
 
-- Develop a user-friendly chatbot for car shopping.
-- Integrate advanced search capabilities tailored to user needs.
-- Provide a seamless and engaging user experience.
+- **Personalized Car Recommendations** based on user preferences (e.g., budget, car type, brand).
+- **Advanced Retrieval-Augmented Generation (RAG) pipeline** for contextually relevant responses.
+- **Fine-Tuned LLM (GPT-4o-mini)** for precise, domain-specific car shopping insights.
+- **Performance Evaluation** using context relevance and human-assessed answer relevance.
+- **Interactive Interface** built with Streamlit for a user-friendly experience.
+- **Scalable Vector Database** leveraging Pinecone for fast and efficient data retrieval.
 
-## Project Architecture
-
-![Project Architecture](png/architecture-diagram.png)
-
-### Explanation
-
-- **User Interface**: Chatbot interface for user interactions, built using Streamlit.
-- **Backend**: Handles user queries, processes requests, and retrieves data using LangChain and RAG.
-- **Data Sources**: Integration with car listings databases and dealer information, stored in Pinecone for fast retrieval.
-- **LLM**: OpenAI API for natural language processing and generating responses.
 
 ## Technologies Used
 
@@ -52,30 +48,56 @@ AutoBuddy is designed to assist users in finding the perfect car based on their 
 
 ## RAG Pipeline Implementation
 
-The RAG pipeline combines retrieval-based and generative models to provide accurate and contextually relevant responses.
+The RAG pipeline combines retrieval-based and generative models to provide accurate and contextually relevant responses. To improve my RAG pipeline and the performance of our chatbot, I employed advanced RAG techniques such as Auto-Merging Retrieval, which enhances the relevance of context retrieval.
 
-### Steps Involved
+![Project Architecture](png/architecture-diagram.png)
 
-1. Query Understanding: NLP techniques to parse user queries.
-2. Document Retrieval: Retrieve relevant documents or data snippets using Pinecone.
-3. Response Generation: Generate responses based on retrieved data using OpenAI API.
-4. Integration: Combine retrieval and generation outputs for final response using LangChain.
+## Fine Tuning Steps
+- Prepare Training Data: We create datasets representative of the desired tasks. 
+- Uploading a Training File for Fine-Tuning: Uploading our training data is a crucial step.
+- Train a New Fine-Tuned Model: Create a Fine-Tuning Job and Monitor Job Progress.
 
-## Performance Metrics
+## Project Architecture
 
-- **Response Accuracy**: Measure of how accurately the chatbot provides relevant information.
-- **User Satisfaction**: User feedback and ratings on the chatbot’s performance.
-- **Response Time**: Average time taken to respond to user queries.
+- **src/materials/**: Contains data that our model will use to answer questions.
+- **src/FetchData/**: Contains Python-based script for scraping car's information.
+- **src/Fine-Tune/**: Contains Python-Notebook for fine-tune the GPT-4o-mini.
+- **src/Evaluation/**: Contains Python-Notebook for evaluating chatbot context relevance and answer relevance.
+- **src/chatBot.py**: Python-based chatbot script.
+- **src/mainStreamlitUI.py**: Python-based Streamlit main script.
+- **doc/**: Stores [Report](doc) files.
+- **video/**: Contains [video](video) presentation. You can also watch the video on [YouTube]().
+- **.env**: Contains API keys.
 
-## Deployment Plan
+## Dependencies
+- Python 3.7+
+- langchain
+- pinecone-client
+- python-dotenv
+- streamlit
+- pypdf
 
-1. **Development**: Finalize and test the chatbot application.
-2. **Containerization**: Use Docker for creating a deployable image.
-3. **Hosting**: Deploy on AWS for scalability and reliability.
+## Usage
+1. Clone the repository: `git clone https://github.com/Faridghr/AutoBuddy-Car-Shopping-Chatbot.git`
+2. Navigate to the project directory: `cd AutoBuddy-Car-Shopping-Chatbot`
+3. Install dependencies: `pip install -r requirements.txt`
+4. Set up your LLM.
+5. Set up your Pinecone API key in `.env` file.
+5. Navigate to src directory: `cd src`
+6. Run the Streamlit application: `streamlit run mainStreamlitUI.py`
+7. Open your web browser and navigate to the URL provided by Streamlit (usually http://localhost:8501).
+8. Interact with the chatbot by typing messages and receiving responses from the local LLM service.
 
-## Future Work
+## Setting Up OpenAI API
+1. Enter our OpenAI account and navigate to [OpenAI Platform](https://platform.openai.com/apps). 
+2. Navigate to the API section.
+3. Proceed to create a new API key by pressing '+ Create' new secret key.
+4. Select a suitable name to remember and press the Create secret key button.
+5. Copy the secret key and add your OpenAI API Keys in a file called `.env`.
 
-- Integrate with more car listing platforms.
-- Add more advanced search filters.
-- Implement voice interaction capabilities.
-- Expand to other markets (e.g., used cars, electric vehicles).
+## Setting up Pinecone
+1. To create a PineCone account, sign up via this link: [Pinecone](https://www.pinecone.io/)
+2. After registering with the free tier, go into the project, and click on Create a Projec.
+3. Fill in the Project Name, Cloud Provider, and Environment. In this case, I have used “SimpleRAGChatbot Application” as a Project Name, GCP as Cloud Provider, and Iowa (gcp-starter) as an Environment.
+4. After the project is created, go into the API Keys section, and make sure you have an API key available. Do not share this API key.
+5. After completing the account setup, you can add your Pinecone API Keys in a file called `.env`.
