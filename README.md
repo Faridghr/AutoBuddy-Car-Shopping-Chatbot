@@ -26,7 +26,7 @@ Welcome to AutoBuddy, a car shopping search chatbot designed to simplify your ca
 - [Usage](#usage)
 - [Setting Up OpenAI API](#Setting-Up-OpenAI-API)
 - [Setting up Pinecone](#Setting-up-Pinecone)
-- [Contact](#Contact)
+- [Contact Info](#Contact-info)
 - [License](#License)
 
 ## Introduction
@@ -104,11 +104,11 @@ The RAG pipeline combines retrieval-based and generative models to provide accur
 4. After the project is created, go into the API Keys section, and make sure you have an API key available. Do not share this API key.
 5. After completing the account setup, you can add your Pinecone API Keys in a file called `.env`.
 
-## Contact Us
-Farid Ghorbani
-GitHub: https://github.com/Faridghr
-Email: faridghr.cs@gmail.com
-LinkedIn: https://www.linkedin.com/in/farid-ghorbanii/
+## Contact Info
+- Farid Ghorbani
+- GitHub: https://github.com/Faridghr
+- Email: faridghr.cs@gmail.com
+- LinkedIn: https://www.linkedin.com/in/farid-ghorbanii/
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
